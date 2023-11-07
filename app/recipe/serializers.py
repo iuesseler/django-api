@@ -3,7 +3,7 @@ from rest_framework import serializers
 from core.models import Recipe
 
 
-class RecipeSerializer(serializers.Serializer):
+class RecipeSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Recipe
